@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+tickets_created.csv
+*.wav
+.DS_Store

@@ -1,0 +1,119 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 5540 >>
+stream
+BT /F2 18 Tf 1 0 0 1 56 786 Tm (VoiceOps 2026 - Short Report: ZentroMart Support Agent) Tj ET
+BT /F2 13 Tf 1 0 0 1 56 758 Tm (What I built) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 735 Tm (A support agent for ZentroMart, a fictional Indian online store, that answers customers) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 720 Tm (from company documents, holds multi-turn conversations, and speaks through Gnani's) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 705 Tm (speech models. The same agent serves chat, batch audio runs and the interactive demo:) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 690 Tm (audio goes through Gnani STT into the agent, and the reply comes back through Gnani) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 675 Tm (TTS. No other speech service is used, and no real customer data was used anywhere -) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 660 Tm (every record is from the supplied synthetic dataset.) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 639 Tm (The agent is deterministic and dependency-free \(Python standard library only, plus) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 624 Tm (gnani-vachana for voice\). Retrieval is TF-IDF over the knowledge-base sections, each) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 609 Tm (kept with its [SECTION-ID], re-ranked by the precedence in KB-00.1: current policy) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 594 Tm (first, then agent guide, help, FAQ, and marketing last. Superseded documents are) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 579 Tm (excluded from retrieval, and support logs are never treated as policy. On top of) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 564 Tm (retrieval sit structured handlers that compute exact answers: business-day refund) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 549 Tm (timelines \(Monday-Saturday, skipping warehouse holidays, with "today" fixed at 20) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 534 Tm (October 2026\), calendar-day return windows, festive-sale and pre-August electronics) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 519 Tm (rules, catalog lookups by SKU or product name, and order lookups gated by verification.) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 498 Tm (Conversation state is kept per session: order ID, verification status, last item and) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 483 Tm (last topic. A customer is asked for their order ID, then for the last 4 digits of their) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 468 Tm (registered phone number or their delivery pincode, and no order detail is shared until) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 453 Tm (that check passes. Two failed attempts lock the order out. Follow-ups resolve against) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 438 Tm (the same order \("aur refund kitne din mein aayega?" after a return question uses that) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 423 Tm (order's payment method and Plus status\). Tickets are created before any handover, and a) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 408 Tm (handover is only claimed when the ticket tool returns created=True. The agent never) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 393 Tm (claims to have cancelled an order - no cancel tool exists, so it guides the customer to) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 378 Tm (cancel free in My Orders - and never promises compensation, approvals or outcomes the) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 363 Tm (policies do not allow.) Tj ET
+BT /F2 13 Tf 1 0 0 1 56 342 Tm (Step 1 vs Step 2 scores) Tj ET
+BT /F1 10 Tf 1 0 0 1 56 319 Tm (Evaluation | Result) Tj ET
+BT /F1 10 Tf 1 0 0 1 56 305 Tm (Step 1, no documents - 52 practice questions | 12/52 \(23.1%\)) Tj ET
+BT /F1 10 Tf 1 0 0 1 56 291 Tm (Step 2, RAG + structured policies - 52 practice questions | 52/52 \(100%\), retrieval 100%) Tj ET
+BT /F1 10 Tf 1 0 0 1 56 277 Tm (Step 3 - 23 practice conversations, 96 turns | 96/96 \(100%\)) Tj ET
+BT /F1 10 Tf 1 0 0 1 56 263 Tm (ASR transcripts - 52 practice questions | 52/52 \(100%\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 243 Tm (Step 1 deserves a note on honesty: no LLM API key was available for this build, so Step) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 228 Tm (1 is the same agent with retrieval and policy handlers switched off - a no-document) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 213 Tm (baseline, not a real LLM run. Its value is that it measures exactly what grounding is) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 198 Tm (worth. Without documents it guesses the generic answer, and the dataset is designed to) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 183 Tm (punish that: FAQ-1's "refunds take 5 to 7 days" is wrong for Wallet \(instant, within 2) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 168 Tm (hours\), UPI \(1 to 3 business days\) and net banking \(3 to 5 business days\); the old) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 153 Tm (10-day electronics window is wrong since 1 August 2026; and the festive 30-day fashion) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 138 Tm (window is invisible without RET-8. Step 2 recovers all of it, because every answer is) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 123 Tm (tied to a retrieved section or a computed date, and unanswerable questions get an) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 108 Tm (honest "I don't have information about that" plus a human handover instead of an) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 93 Tm (invented policy.) Tj ET
+BT /F2 13 Tf 1 0 0 1 56 72 Tm (What went wrong and what I would fix) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 49 Tm (Three failures shaped the final design. First, plain keyword retrieval scored about 65%) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 34 Tm (on the questions: it fell for FAQ and marketing traps and missed products named in) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 19 Tm (short form \("Kaafi Running Sneakers" versus the catalog's "Kaafi Running Sneakers,) Tj ET
+BT /F1 9 Tf 1 0 0 1 56 30 Tm (VoiceOps 2026 - ZentroMart Support Agent  |  page 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2806 >>
+stream
+BT /F1 11 Tf 1 0 0 1 56 786 Tm (White"\). The fix was precedence re-ranking plus structured handlers and token-overlap) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 771 Tm (product matching. Second, Hindi and Hinglish questions initially fell through to) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 756 Tm (English retrieval; mapping Hindi topic words to the same handlers for routing fixed) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 741 Tm (routing without mistranslating policy facts. Third, ASR transcripts broke on spoken) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 726 Tm (numbers \("ele-zero zero one to", "two zero two six", "u p i", "re fund"\); a normalizer) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 711 Tm (that rebuilds digits, years, SKUs and acronyms before routing brought ASR accuracy to) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 696 Tm (100% on the practice transcripts.) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 675 Tm (What I would fix next: put a real LLM behind retrieval for questions the structured) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 660 Tm (handlers do not cover, keeping the same guardrails - answer only from retrieved) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 645 Tm (sections, cite them, and say "I don't know" when they do not cover the question. And) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 630 Tm (record the 2-minute voice demo: the voice code is complete and follows the brief's) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 615 Tm (sample \(Gnani SDK, timbre-v2.5, voice Kaveri\), but no Gnani key was available during) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 600 Tm (this build, so the demo could not be recorded yet. Connecting a key at) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 585 Tm (app.gnani.ai/voice and setting GNANI_API_KEY is the only remaining step for Step 4 to) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 570 Tm (run end to end.) Tj ET
+BT /F2 13 Tf 1 0 0 1 56 549 Tm (How to run it) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 526 Tm (``bash unzip Capstone_Project_Dataset_FTTT_2026.zip -d /path/to/dataset-parent pip) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 511 Tm (install -r requirements.txt # gnani-vachana, voice only python -m src.chat --dataset) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 496 Tm (/path/to/Capstone_Project_Dataset_FTTT_2026 python -m src.evaluate --dataset) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 481 Tm (/path/to/Capstone_Project_Dataset_FTTT_2026 python run.py --input-dir audio/) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 466 Tm (--output-dir outputs/ \\ --dataset /path/to/Capstone_Project_Dataset_FTTT_2026 ``) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 445 Tm (The repository contains no dataset copy, no API keys and no .env file, as the brief) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 430 Tm (requires. Full evaluation details are in sample_outputs/evaluation_results.json, with a) Tj ET
+BT /F1 11 Tf 1 0 0 1 56 415 Tm (sample chat transcript and batch outputs alongside it.) Tj ET
+BT /F1 9 Tf 1 0 0 1 56 30 Tm (VoiceOps 2026 - ZentroMart Support Agent  |  page 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000266 00000 n 
+0000000402 00000 n 
+0000005994 00000 n 
+0000006130 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+8988
+%%EOF

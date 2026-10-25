@@ -1,0 +1,4 @@
+# The agent itself needs only the Python standard library, so it runs
+# anywhere without a dependency install. This file exists for the voice
+# layer, which is the only optional dependency.
+gnani-vachana>=0.1

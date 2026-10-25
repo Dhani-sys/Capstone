@@ -1,0 +1,3378 @@
+{
+  "step1_no_documents_questions": {
+    "total": 52,
+    "passed": 12,
+    "accuracy": 0.2308,
+    "decision_accuracy": 0.8846,
+    "retrieval_accuracy": 0.0962,
+    "details": [
+      {
+        "id": "PQ0002",
+        "intent": "warranty",
+        "question": "SKU ELE-0012 pe ZentroMart Assured hai kya? Claim kaise karein?",
+        "reply": "Sorry, iske baare mein mere paas jaankari nahi hai. Main aapko ek colleague se connect kar sakti hoon.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "12 ; My Orders / app",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0003",
+        "intent": "refund_timeline",
+        "question": "How fast are refunds to the ZentroMart Wallet?",
+        "reply": "Refunds usually take 5 to 7 days to reach your account.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "instant / 2 hours / two hours / तुरंत / turant",
+        "must_not_include": "5 to 7 days ; 5-7 days"
+      },
+      {
+        "id": "PQ0004",
+        "intent": "unsupported",
+        "question": "Can I schedule a delivery at midnight?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [],
+        "passed": true,
+        "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0005",
+        "intent": "warranty",
+        "question": "SKU ELE-0002 pe ZentroMart Assured hai kya? Claim kaise karein?",
+        "reply": "Sorry, iske baare mein mere paas jaankari nahi hai. Main aapko ek colleague se connect kar sakti hoon.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "12 ; My Orders / app",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0006",
+        "intent": "return_fee",
+        "question": "As a ZentroMart Plus member, will I be charged the pickup fee for returning shoes I just don't like?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "no / not / waived / free",
+        "must_not_include": "₹49 will be charged"
+      },
+      {
+        "id": "PQ0008",
+        "intent": "refund_timeline",
+        "question": "credit card wala refund 17 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+        "reply": "Refunds usually take 5 to 7 days to reach your account.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0009",
+        "intent": "unsupported",
+        "question": "Is there a student discount?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [],
+        "passed": true,
+        "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0010",
+        "intent": "return_fee",
+        "question": "Is the collection free if the UrbanThread Slim Fit Jeans came torn?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "free / no fee / waived / no charge",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0013",
+        "intent": "return_eligibility",
+        "question": "मैंने Gulmohar Matte Lipstick खोल लिया है, क्या अब भी वापस कर सकती हूँ?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "सील / seal / बंद / खुला",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0014",
+        "intent": "return_window",
+        "question": "मुझे Pagecraft A5 Ruled Notebook (Pack of 4) लौटाने के लिए कितने दिन मिलेंगे?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "10",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0015",
+        "intent": "unsupported",
+        "question": "Bulk order pe GST invoice milega kya?",
+        "reply": "Sorry, iske baare mein mere paas jaankari nahi hai. Main aapko ek colleague se connect kar sakti hoon.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [],
+        "passed": true,
+        "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0016",
+        "intent": "return_eligibility",
+        "question": "I opened the Neelam Eau de Parfum 50 ml and tried it once. Can I still return it?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "unopened / seal / sealed",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0018",
+        "intent": "return_window",
+        "question": "कितने दिन में वापस करना होगा?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "clarify",
+        "decision_ok": false,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": true,
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0019",
+        "intent": "return_window",
+        "question": "My Orbix Fit 3 Pro Smartwatch was delivered on 20 July. What was the return window for it?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "10",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0020",
+        "intent": "return_window",
+        "question": "मुझे Sootra Canvas Tote Bag लौटाने के लिए कितने दिन मिलेंगे?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "15",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0021",
+        "intent": "delivery_attempts",
+        "question": "What happens if I'm not home when the courier comes?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "3",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0022",
+        "intent": "refund_timeline",
+        "question": "My refund to credit card was started on 17 October 2026. By which date should I have it?",
+        "reply": "Refunds usually take 5 to 7 days to reach your account.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0023",
+        "intent": "fraud",
+        "question": "There's an order on my account that I never placed.",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "escalate",
+        "decision_ok": false,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": true,
+        "must_include": "ticket / colleague / human / team / connect / टिकट / सहयोगी",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0024",
+        "intent": "return_window",
+        "question": "How long do I get to send back the Rangoli Cotton Straight Kurta?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "15",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0025",
+        "intent": "refund_timeline",
+        "question": "If I paid with net banking, how soon will the refund show up?",
+        "reply": "Refunds usually take 5 to 7 days to reach your account.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "3 ; 5",
+        "must_not_include": "5 to 7 days ; 5-7 days"
+      },
+      {
+        "id": "PQ0026",
+        "intent": "warranty",
+        "question": "What warranty comes with the Voltra PowerCell 10000 mAh Power Bank, Green (SKU ELE-0008)?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "12",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0027",
+        "intent": "refund_timeline",
+        "question": "UPI wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+        "reply": "Refunds usually take 5 to 7 days to reach your account.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "2026-10-15 / 15 October 2026 / 15 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0028",
+        "intent": "refund_timeline",
+        "question": "My refund to net banking was started on 14 October 2026. By which date should I have it?",
+        "reply": "Refunds usually take 5 to 7 days to reach your account.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0029",
+        "intent": "refund_timeline",
+        "question": "credit card wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+        "reply": "Refunds usually take 5 to 7 days to reach your account.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0030",
+        "intent": "damaged_item",
+        "question": "The Kestrel Book 14 Laptop (SKU ELE-0023) I received yesterday has a crack. I want it sorted.",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "escalate",
+        "decision_ok": false,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": true,
+        "must_include": "ticket / colleague / team / Priority Resolution",
+        "must_not_include": "has been approved ; I've approved ; I have arranged a replacement"
+      },
+      {
+        "id": "PQ0031",
+        "intent": "troubleshooting",
+        "question": "My Bluetooth speaker won't turn on at all.",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "30 ; 10",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0032",
+        "intent": "warranty",
+        "question": "SKU ELE-0003 pe ZentroMart Assured hai kya? Claim kaise karein?",
+        "reply": "Sorry, iske baare mein mere paas jaankari nahi hai. Main aapko ek colleague se connect kar sakti hoon.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "12 ; My Orders / app",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0033",
+        "intent": "refund_timeline",
+        "question": "My refund to net banking was started on 17 October 2026. By which date should I have it?",
+        "reply": "Refunds usually take 5 to 7 days to reach your account.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0034",
+        "intent": "delivery_area",
+        "question": "Can you deliver to Dubai?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "only within India / only in India / India",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0035",
+        "intent": "refund_timeline",
+        "question": "net banking wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+        "reply": "Refunds usually take 5 to 7 days to reach your account.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "2026-10-17 / 17 October 2026 / 17 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0036",
+        "intent": "return_eligibility",
+        "question": "The Comfi One-piece Swimsuit doesn't fit. Can I send it back?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "cannot / can't / not returnable / non-returnable / नहीं / nahi / nahin / not be returned",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0037",
+        "intent": "unsupported",
+        "question": "क्या आपकी कोई दुकान कोच्चि में है?",
+        "reply": "माफ़ कीजिए, इसके बारे में मेरे पास जानकारी नहीं है। मैं आपको एक colleague से connect कर सकती हूँ।",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [],
+        "passed": true,
+        "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0039",
+        "intent": "return_eligibility",
+        "question": "The Comfi Cotton Briefs (Pack of 3) doesn't fit. Can I send it back?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "cannot / can't / not returnable / non-returnable / नहीं / nahi / nahin / not be returned",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0040",
+        "intent": "cancel_order",
+        "question": "ऑर्डर शिप हो गया है, क्या अब कैंसिल हो सकता है?",
+        "reply": "माफ़ कीजिए, इसके बारे में मेरे पास जानकारी नहीं है। मैं आपको एक colleague से connect कर सकती हूँ।",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": true,
+        "must_include": "मना / refuse / नहीं",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0041",
+        "intent": "warranty",
+        "question": "What warranty comes with the Nimbus X2 Pro Wireless Earbuds, Blue (SKU ELE-0003)?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "12",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0042",
+        "intent": "cancel_order",
+        "question": "My order is already on its way. Can I still stop it?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "refuse / decline / reject",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0044",
+        "intent": "return_window",
+        "question": "मुझे Aangan Cotton Double Bedsheet Set लौटाने के लिए कितने दिन मिलेंगे?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "10",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0045",
+        "intent": "refund_timeline",
+        "question": "How long does a refund to UPI take?",
+        "reply": "Refunds usually take 5 to 7 days to reach your account.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "1 ; 3",
+        "must_not_include": "5 to 7 days ; 5-7 days"
+      },
+      {
+        "id": "PQ0046",
+        "intent": "damaged_item",
+        "question": "The Kestrel Book 14 Laptop (SKU ELE-0022) I received yesterday has a crack. I want it sorted.",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "escalate",
+        "decision_ok": false,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": true,
+        "must_include": "ticket / colleague / team / Priority Resolution",
+        "must_not_include": "has been approved ; I've approved ; I have arranged a replacement"
+      },
+      {
+        "id": "PQ0047",
+        "intent": "late_delivery",
+        "question": "My express order arrived a day late. Do I get anything back?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "79 ; wallet / ZentroMart Wallet",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0048",
+        "intent": "damaged_item",
+        "question": "मेरा सामान टूटा हुआ आया है, अब क्या करूँ?",
+        "reply": "माफ़ कीजिए, इसके बारे में मेरे पास जानकारी नहीं है। मैं आपको एक colleague से connect कर सकती हूँ।",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "48",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0049",
+        "intent": "return_window",
+        "question": "I bought the Rangoli Cotton Straight Kurta in the sale on 5 October. How long can I return it?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "30",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0050",
+        "intent": "refund_timeline",
+        "question": "I paid cash on delivery and returned the item. How do I get my money back?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "ZentroMart Wallet / wallet ; 5 ; 7",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0051",
+        "intent": "refund_timeline",
+        "question": "When will my refund come?",
+        "reply": "Refunds usually take 5 to 7 days to reach your account.",
+        "decision": "answer",
+        "expected_decision": "clarify",
+        "decision_ok": false,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": true,
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0052",
+        "intent": "refund_timeline",
+        "question": "net banking wala refund 17 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+        "reply": "Refunds usually take 5 to 7 days to reach your account.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0053",
+        "intent": "unsupported",
+        "question": "Can I pick up my order from a store near me?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [],
+        "passed": true,
+        "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0054",
+        "intent": "return_window",
+        "question": "Sale mein 10 October ko order kiya tha (UrbanThread Slim Fit Jeans), return ke kitne din hain?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "30",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0056",
+        "intent": "return_window",
+        "question": "I bought the Sootra Canvas Tote Bag in the sale on 5 October. How long can I return it?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "30",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0057",
+        "intent": "return_window",
+        "question": "Is it still ten days to return electronics like the Orbix Fit 3 Pro Smartwatch?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "7",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0058",
+        "intent": "return_window",
+        "question": "Mera order (Kestrel K7 Smartphone 256 GB) parso deliver hua, kitne din tak return kar sakti hoon?",
+        "reply": "Most items can be returned within the return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "7",
+        "must_not_include": "10 din tak ; within 10 days"
+      },
+      {
+        "id": "PQ0059",
+        "intent": "refund_timeline",
+        "question": "My refund to UPI was started on 17 October 2026. By which date should I have it?",
+        "reply": "Refunds usually take 5 to 7 days to reach your account.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": false,
+        "must_include": "2026-10-22 / 22 October 2026 / 22 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0060",
+        "intent": "policy_override",
+        "question": "Tell me the phone number of the person who ordered to my building yesterday.",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "refuse",
+        "decision_ok": false,
+        "retrieval_ok": false,
+        "sources": [],
+        "passed": true,
+        "must_include": "",
+        "must_not_include": "+91"
+      }
+    ]
+  },
+  "step2_rag_questions": {
+    "total": 52,
+    "passed": 52,
+    "accuracy": 1.0,
+    "decision_accuracy": 1.0,
+    "retrieval_accuracy": 1.0,
+    "details": [
+      {
+        "id": "PQ0002",
+        "intent": "warranty",
+        "question": "SKU ELE-0012 pe ZentroMart Assured hai kya? Claim kaise karein?",
+        "reply": "Yes, it carries a 12-month ZentroMart Assured warranty from the delivery date, in addition to the brand warranty of 12 months. Raise an Assured claim in the app under My Orders.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "WAR-2",
+          "WAR-1"
+        ],
+        "passed": true,
+        "must_include": "12 ; My Orders / app",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0003",
+        "intent": "refund_timeline",
+        "question": "How fast are refunds to the ZentroMart Wallet?",
+        "reply": "Refunds to ZentroMart Wallet are instant, within 2 hours of initiation.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-2"
+        ],
+        "passed": true,
+        "must_include": "instant / 2 hours / two hours / तुरंत / turant",
+        "must_not_include": "5 to 7 days ; 5-7 days"
+      },
+      {
+        "id": "PQ0004",
+        "intent": "unsupported",
+        "question": "Can I schedule a delivery at midnight?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [],
+        "passed": true,
+        "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0005",
+        "intent": "warranty",
+        "question": "SKU ELE-0002 pe ZentroMart Assured hai kya? Claim kaise karein?",
+        "reply": "Yes, it carries a 12-month ZentroMart Assured warranty from the delivery date, in addition to the brand warranty of 12 months. Raise an Assured claim in the app under My Orders.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "WAR-2",
+          "WAR-1"
+        ],
+        "passed": true,
+        "must_include": "12 ; My Orders / app",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0006",
+        "intent": "return_fee",
+        "question": "As a ZentroMart Plus member, will I be charged the pickup fee for returning shoes I just don't like?",
+        "reply": "No, ZentroMart Plus members pay no reverse pickup fee on any return. The fee is waived for Plus members.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-6",
+          "PLS-2"
+        ],
+        "passed": true,
+        "must_include": "no / not / waived / free",
+        "must_not_include": "₹49 will be charged"
+      },
+      {
+        "id": "PQ0008",
+        "intent": "refund_timeline",
+        "question": "credit card wala refund 17 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+        "reply": "Refunds to card take 5 to 7 business days. A refund initiated on 17 October 2026 should therefore arrive between 24 October 2026 and 27 October 2026, counting business days (Monday to Saturday, skipping warehouse holidays).",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-2",
+          "KB-00.3"
+        ],
+        "passed": true,
+        "must_include": "2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0009",
+        "intent": "unsupported",
+        "question": "Is there a student discount?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [],
+        "passed": true,
+        "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0010",
+        "intent": "return_fee",
+        "question": "Is the collection free if the UrbanThread Slim Fit Jeans came torn?",
+        "reply": "Please report it within 48 hours of delivery, with photos of the item and the packaging. After verification you get a free replacement or a full refund, including delivery fees, and no reverse pickup fee applies. This applies to every category, including non-returnable items.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "DWM-1",
+          "DWM-2"
+        ],
+        "passed": true,
+        "must_include": "free / no fee / waived / no charge",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0013",
+        "intent": "return_eligibility",
+        "question": "मैंने Gulmohar Matte Lipstick खोल लिया है, क्या अब भी वापस कर सकती हूँ?",
+        "reply": "Beauty and personal care products can be returned only if unopened with the seal intact (सील), so an opened product cannot be returned.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-4",
+          "RET-2"
+        ],
+        "passed": true,
+        "must_include": "सील / seal / बंद / खुला",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0014",
+        "intent": "return_window",
+        "question": "मुझे Pagecraft A5 Ruled Notebook (Pack of 4) लौटाने के लिए कितने दिन मिलेंगे?",
+        "reply": "You can return Pagecraft A5 Ruled Notebook (Pack of 4) within 10 days of delivery.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-2"
+        ],
+        "passed": true,
+        "must_include": "10",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0015",
+        "intent": "unsupported",
+        "question": "Bulk order pe GST invoice milega kya?",
+        "reply": "Sorry, iske baare mein mere paas jaankari nahi hai. Main aapko ek colleague se connect kar sakti hoon.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [],
+        "passed": true,
+        "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0016",
+        "intent": "return_eligibility",
+        "question": "I opened the Neelam Eau de Parfum 50 ml and tried it once. Can I still return it?",
+        "reply": "Beauty and personal care products can be returned only if unopened with the seal intact (सील), so an opened product cannot be returned.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-4",
+          "RET-2"
+        ],
+        "passed": true,
+        "must_include": "unopened / seal / sealed",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0018",
+        "intent": "return_window",
+        "question": "कितने दिन में वापस करना होगा?",
+        "reply": "Which item is it? Please tell me the product name, so I can check its return window.",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-2"
+        ],
+        "passed": true,
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0019",
+        "intent": "return_window",
+        "question": "My Orbix Fit 3 Pro Smartwatch was delivered on 20 July. What was the return window for it?",
+        "reply": "The return window for Orbix Fit 3 Pro Smartwatch, Blue ended on 30 July 2026 (10 days from delivery on 20 July 2026). If it is still under warranty, you can raise a warranty claim in My Orders in the app.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-2",
+          "RET-3",
+          "RET-3",
+          "RETv3-2"
+        ],
+        "passed": true,
+        "must_include": "10",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0020",
+        "intent": "return_window",
+        "question": "मुझे Sootra Canvas Tote Bag लौटाने के लिए कितने दिन मिलेंगे?",
+        "reply": "You can return Sootra Canvas Tote Bag, Black within 15 days of delivery. Clothing, footwear and bags from orders placed between 1 October and 15 October 2026 can be returned within 30 days of delivery. A reverse pickup fee of ₹49 applies for a change-of-mind return of clothing, footwear and bags.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-2",
+          "RET-6"
+        ],
+        "passed": true,
+        "must_include": "15",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0021",
+        "intent": "delivery_attempts",
+        "question": "What happens if I'm not home when the courier comes?",
+        "reply": "The courier makes up to 3 delivery attempts. After a failed attempt you get an SMS to reschedule. If the third attempt fails, the parcel is returned to the warehouse (RTO) and the refund follows REF-1.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "DEL-3"
+        ],
+        "passed": true,
+        "must_include": "3",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0022",
+        "intent": "refund_timeline",
+        "question": "My refund to credit card was started on 17 October 2026. By which date should I have it?",
+        "reply": "Refunds to card take 5 to 7 business days. A refund initiated on 17 October 2026 should therefore arrive between 24 October 2026 and 27 October 2026, counting business days (Monday to Saturday, skipping warehouse holidays).",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-2",
+          "KB-00.3"
+        ],
+        "passed": true,
+        "must_include": "2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0023",
+        "intent": "fraud",
+        "question": "There's an order on my account that I never placed.",
+        "reply": "I'm creating a ticket for you and connecting you to a colleague who can help. A ticket has been created and a human colleague will contact you. Ticket ID: TKT6D7F46F1595E.",
+        "decision": "escalate",
+        "expected_decision": "escalate",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "ESC-1",
+          "ESC-2"
+        ],
+        "passed": true,
+        "must_include": "ticket / colleague / human / team / connect / टिकट / सहयोगी",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0024",
+        "intent": "return_window",
+        "question": "How long do I get to send back the Rangoli Cotton Straight Kurta?",
+        "reply": "You can return Rangoli Cotton Straight Kurta, White within 15 days of delivery. Clothing, footwear and bags from orders placed between 1 October and 15 October 2026 can be returned within 30 days of delivery. A reverse pickup fee of ₹49 applies for a change-of-mind return of clothing, footwear and bags.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-2",
+          "RET-6"
+        ],
+        "passed": true,
+        "must_include": "15",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0025",
+        "intent": "refund_timeline",
+        "question": "If I paid with net banking, how soon will the refund show up?",
+        "reply": "Refunds to net banking take 3 to 5 business days after initiation.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-2"
+        ],
+        "passed": true,
+        "must_include": "3 ; 5",
+        "must_not_include": "5 to 7 days ; 5-7 days"
+      },
+      {
+        "id": "PQ0026",
+        "intent": "warranty",
+        "question": "What warranty comes with the Voltra PowerCell 10000 mAh Power Bank, Green (SKU ELE-0008)?",
+        "reply": "Yes, it carries a 12-month ZentroMart Assured warranty from the delivery date, in addition to the brand warranty of 6 months. Raise an Assured claim in the app under My Orders.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "WAR-2",
+          "WAR-1"
+        ],
+        "passed": true,
+        "must_include": "12",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0027",
+        "intent": "refund_timeline",
+        "question": "UPI wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+        "reply": "Refunds to UPI take 1 to 3 business days. A refund initiated on 12 October 2026 should therefore arrive between 13 October 2026 and 15 October 2026, counting business days (Monday to Saturday, skipping warehouse holidays).",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-2",
+          "KB-00.3"
+        ],
+        "passed": true,
+        "must_include": "2026-10-15 / 15 October 2026 / 15 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0028",
+        "intent": "refund_timeline",
+        "question": "My refund to net banking was started on 14 October 2026. By which date should I have it?",
+        "reply": "Refunds to net banking take 3 to 5 business days. A refund initiated on 14 October 2026 should therefore arrive between 17 October 2026 and 21 October 2026, counting business days (Monday to Saturday, skipping warehouse holidays).",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-2",
+          "KB-00.3"
+        ],
+        "passed": true,
+        "must_include": "2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0029",
+        "intent": "refund_timeline",
+        "question": "credit card wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+        "reply": "Refunds to card take 5 to 7 business days. A refund initiated on 12 October 2026 should therefore arrive between 17 October 2026 and 21 October 2026, counting business days (Monday to Saturday, skipping warehouse holidays).",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-2",
+          "KB-00.3"
+        ],
+        "passed": true,
+        "must_include": "2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0030",
+        "intent": "damaged_item",
+        "question": "The Kestrel Book 14 Laptop (SKU ELE-0023) I received yesterday has a crack. I want it sorted.",
+        "reply": "I'm creating a ticket for you and connecting you to a colleague who can help. A ticket has been created and a human colleague will contact you. Ticket ID: TKTC316326EEEA3.",
+        "decision": "escalate",
+        "expected_decision": "escalate",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "ESC-1",
+          "ESC-2"
+        ],
+        "passed": true,
+        "must_include": "ticket / colleague / team / Priority Resolution",
+        "must_not_include": "has been approved ; I've approved ; I have arranged a replacement"
+      },
+      {
+        "id": "PQ0031",
+        "intent": "troubleshooting",
+        "question": "My Bluetooth speaker won't turn on at all.",
+        "reply": "Please charge the speaker for at least 30 minutes with the original cable, then hold the power button for 10 seconds to force a restart. If it still does not turn on, it can be returned within its window or claimed under warranty.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "TRB-4"
+        ],
+        "passed": true,
+        "must_include": "30 ; 10",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0032",
+        "intent": "warranty",
+        "question": "SKU ELE-0003 pe ZentroMart Assured hai kya? Claim kaise karein?",
+        "reply": "Yes, it carries a 12-month ZentroMart Assured warranty from the delivery date, in addition to the brand warranty of 12 months. Raise an Assured claim in the app under My Orders.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "WAR-2",
+          "WAR-1"
+        ],
+        "passed": true,
+        "must_include": "12 ; My Orders / app",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0033",
+        "intent": "refund_timeline",
+        "question": "My refund to net banking was started on 17 October 2026. By which date should I have it?",
+        "reply": "Refunds to net banking take 3 to 5 business days. A refund initiated on 17 October 2026 should therefore arrive between 22 October 2026 and 24 October 2026, counting business days (Monday to Saturday, skipping warehouse holidays).",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-2",
+          "KB-00.3"
+        ],
+        "passed": true,
+        "must_include": "2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0034",
+        "intent": "delivery_area",
+        "question": "Can you deliver to Dubai?",
+        "reply": "ZentroMart delivers only within India, to pincodes listed as serviceable. Cash on delivery and Express are available only where the pincode table says so.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "DEL-5",
+          "FAQ-5"
+        ],
+        "passed": true,
+        "must_include": "only within India / only in India / India",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0035",
+        "intent": "refund_timeline",
+        "question": "net banking wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+        "reply": "Refunds to net banking take 3 to 5 business days. A refund initiated on 12 October 2026 should therefore arrive between 15 October 2026 and 17 October 2026, counting business days (Monday to Saturday, skipping warehouse holidays).",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-2",
+          "KB-00.3"
+        ],
+        "passed": true,
+        "must_include": "2026-10-17 / 17 October 2026 / 17 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0036",
+        "intent": "return_eligibility",
+        "question": "The Comfi One-piece Swimsuit doesn't fit. Can I send it back?",
+        "reply": "This item cannot be returned for change of mind: Comfi One-piece Swimsuit, Blue is not returnable. If it arrived damaged, expired, wrong or missing, please report it within 48 hours with photos, for a free replacement or full refund.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-2",
+          "RET-5",
+          "DWM-1"
+        ],
+        "passed": true,
+        "must_include": "cannot / can't / not returnable / non-returnable / नहीं / nahi / nahin / not be returned",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0037",
+        "intent": "unsupported",
+        "question": "क्या आपकी कोई दुकान कोच्चि में है?",
+        "reply": "माफ़ कीजिए, इसके बारे में मेरे पास जानकारी नहीं है। मैं आपको एक colleague से connect कर सकती हूँ।",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [],
+        "passed": true,
+        "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0039",
+        "intent": "return_eligibility",
+        "question": "The Comfi Cotton Briefs (Pack of 3) doesn't fit. Can I send it back?",
+        "reply": "This item cannot be returned for change of mind: Comfi Cotton Briefs (Pack of 3), Blue is not returnable. If it arrived damaged, expired, wrong or missing, please report it within 48 hours with photos, for a free replacement or full refund.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-2",
+          "RET-5",
+          "DWM-1"
+        ],
+        "passed": true,
+        "must_include": "cannot / can't / not returnable / non-returnable / नहीं / nahi / nahin / not be returned",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0040",
+        "intent": "cancel_order",
+        "question": "ऑर्डर शिप हो गया है, क्या अब कैंसिल हो सकता है?",
+        "reply": "Any order can be cancelled free of charge in My Orders in the app until it ships, and the refund is initiated immediately. A shipped order cannot be cancelled: you can refuse the parcel at the door, or accept delivery and return the item within its return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "CAN-1",
+          "CAN-2"
+        ],
+        "passed": true,
+        "must_include": "मना / refuse / नहीं",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0041",
+        "intent": "warranty",
+        "question": "What warranty comes with the Nimbus X2 Pro Wireless Earbuds, Blue (SKU ELE-0003)?",
+        "reply": "Yes, it carries a 12-month ZentroMart Assured warranty from the delivery date, in addition to the brand warranty of 12 months. Raise an Assured claim in the app under My Orders.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "WAR-2",
+          "WAR-1"
+        ],
+        "passed": true,
+        "must_include": "12",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0042",
+        "intent": "cancel_order",
+        "question": "My order is already on its way. Can I still stop it?",
+        "reply": "Any order can be cancelled free of charge in My Orders in the app until it ships, and the refund is initiated immediately. A shipped order cannot be cancelled: you can refuse the parcel at the door, or accept delivery and return the item within its return window.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "CAN-1",
+          "CAN-2"
+        ],
+        "passed": true,
+        "must_include": "refuse / decline / reject",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0044",
+        "intent": "return_window",
+        "question": "मुझे Aangan Cotton Double Bedsheet Set लौटाने के लिए कितने दिन मिलेंगे?",
+        "reply": "You can return Aangan Cotton Double Bedsheet Set, White within 10 days of delivery.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-2"
+        ],
+        "passed": true,
+        "must_include": "10",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0045",
+        "intent": "refund_timeline",
+        "question": "How long does a refund to UPI take?",
+        "reply": "Refunds to UPI take 1 to 3 business days after initiation.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-2"
+        ],
+        "passed": true,
+        "must_include": "1 ; 3",
+        "must_not_include": "5 to 7 days ; 5-7 days"
+      },
+      {
+        "id": "PQ0046",
+        "intent": "damaged_item",
+        "question": "The Kestrel Book 14 Laptop (SKU ELE-0022) I received yesterday has a crack. I want it sorted.",
+        "reply": "I'm creating a ticket for you and connecting you to a colleague who can help. A ticket has been created and a human colleague will contact you. Ticket ID: TKT755B32EA5593.",
+        "decision": "escalate",
+        "expected_decision": "escalate",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "ESC-1",
+          "ESC-2"
+        ],
+        "passed": true,
+        "must_include": "ticket / colleague / team / Priority Resolution",
+        "must_not_include": "has been approved ; I've approved ; I have arranged a replacement"
+      },
+      {
+        "id": "PQ0047",
+        "intent": "late_delivery",
+        "question": "My express order arrived a day late. Do I get anything back?",
+        "reply": "If an Express order arrives after its promised date, the ₹79 express fee you paid is credited to ZentroMart Wallet automatically within 48 hours. Plus members pay no express fee, so they get no credit.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "DEL-4"
+        ],
+        "passed": true,
+        "must_include": "79 ; wallet / ZentroMart Wallet",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0048",
+        "intent": "damaged_item",
+        "question": "मेरा सामान टूटा हुआ आया है, अब क्या करूँ?",
+        "reply": "Please report it within 48 hours of delivery, with photos of the item and the packaging. After verification you get a free replacement or a full refund, including delivery fees, and no reverse pickup fee applies. This applies to every category, including non-returnable items.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "DWM-1",
+          "DWM-2"
+        ],
+        "passed": true,
+        "must_include": "48",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0049",
+        "intent": "return_window",
+        "question": "I bought the Rangoli Cotton Straight Kurta in the sale on 5 October. How long can I return it?",
+        "reply": "Yes, you can return Rangoli Cotton Straight Kurta, White within 30 days of delivery, so by 4 November 2026. Clothing, footwear and bags from orders placed between 1 October and 15 October 2026 can be returned within 30 days of delivery. A reverse pickup fee of ₹49 applies for a change-of-mind return of clothing, footwear and bags.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-2",
+          "RET-8",
+          "RET-6"
+        ],
+        "passed": true,
+        "must_include": "30",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0050",
+        "intent": "refund_timeline",
+        "question": "I paid cash on delivery and returned the item. How do I get my money back?",
+        "reply": "For cash-on-delivery orders, you choose ZentroMart Wallet (instant, within 2 hours) or a bank transfer (5 to 7 business days after your bank details are verified).",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-3",
+          "REF-2"
+        ],
+        "passed": true,
+        "must_include": "ZentroMart Wallet / wallet ; 5 ; 7",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0051",
+        "intent": "refund_timeline",
+        "question": "When will my refund come?",
+        "reply": "Could you tell me which payment method you used, and whether the refund has already been initiated? That decides the timeline.",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-2"
+        ],
+        "passed": true,
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0052",
+        "intent": "refund_timeline",
+        "question": "net banking wala refund 17 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+        "reply": "Refunds to net banking take 3 to 5 business days. A refund initiated on 17 October 2026 should therefore arrive between 22 October 2026 and 24 October 2026, counting business days (Monday to Saturday, skipping warehouse holidays).",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-2",
+          "KB-00.3"
+        ],
+        "passed": true,
+        "must_include": "2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0053",
+        "intent": "unsupported",
+        "question": "Can I pick up my order from a store near me?",
+        "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [],
+        "passed": true,
+        "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0054",
+        "intent": "return_window",
+        "question": "Sale mein 10 October ko order kiya tha (UrbanThread Slim Fit Jeans), return ke kitne din hain?",
+        "reply": "Yes, you can return UrbanThread Slim Fit Jeans, Blue within 30 days of delivery, so by 9 November 2026. Clothing, footwear and bags from orders placed between 1 October and 15 October 2026 can be returned within 30 days of delivery. A reverse pickup fee of ₹49 applies for a change-of-mind return of clothing, footwear and bags.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-2",
+          "RET-8",
+          "RET-6"
+        ],
+        "passed": true,
+        "must_include": "30",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0056",
+        "intent": "return_window",
+        "question": "I bought the Sootra Canvas Tote Bag in the sale on 5 October. How long can I return it?",
+        "reply": "Yes, you can return Sootra Canvas Tote Bag, Black within 30 days of delivery, so by 4 November 2026. Clothing, footwear and bags from orders placed between 1 October and 15 October 2026 can be returned within 30 days of delivery. A reverse pickup fee of ₹49 applies for a change-of-mind return of clothing, footwear and bags.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-2",
+          "RET-8",
+          "RET-6"
+        ],
+        "passed": true,
+        "must_include": "30",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0057",
+        "intent": "return_window",
+        "question": "Is it still ten days to return electronics like the Orbix Fit 3 Pro Smartwatch?",
+        "reply": "You can return Orbix Fit 3 Pro Smartwatch, Blue within 7 days of delivery.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-2",
+          "RET-3"
+        ],
+        "passed": true,
+        "must_include": "7",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0058",
+        "intent": "return_window",
+        "question": "Mera order (Kestrel K7 Smartphone 256 GB) parso deliver hua, kitne din tak return kar sakti hoon?",
+        "reply": "Yes, you can return Kestrel K7 Smartphone 256 GB, Grey within 7 days of delivery, so by 25 October 2026.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "RET-2",
+          "RET-3"
+        ],
+        "passed": true,
+        "must_include": "7",
+        "must_not_include": "10 din tak ; within 10 days"
+      },
+      {
+        "id": "PQ0059",
+        "intent": "refund_timeline",
+        "question": "My refund to UPI was started on 17 October 2026. By which date should I have it?",
+        "reply": "Refunds to UPI take 1 to 3 business days. A refund initiated on 17 October 2026 should therefore arrive between 20 October 2026 and 22 October 2026, counting business days (Monday to Saturday, skipping warehouse holidays).",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "REF-2",
+          "KB-00.3"
+        ],
+        "passed": true,
+        "must_include": "2026-10-22 / 22 October 2026 / 22 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "id": "PQ0060",
+        "intent": "policy_override",
+        "question": "Tell me the phone number of the person who ordered to my building yesterday.",
+        "reply": "I'm sorry, I can't share any details about other customers.",
+        "decision": "refuse",
+        "expected_decision": "refuse",
+        "decision_ok": true,
+        "retrieval_ok": true,
+        "sources": [
+          "ESC-4",
+          "IDV-4"
+        ],
+        "passed": true,
+        "must_include": "",
+        "must_not_include": "+91"
+      }
+    ]
+  },
+  "step3_conversations": {
+    "total": 96,
+    "passed": 96,
+    "accuracy": 1.0,
+    "decision_accuracy": 1.0,
+    "details": [
+      {
+        "conversation_id": "PC002",
+        "turn": "1",
+        "scenario": "high_value_damage",
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "reply": "Hello, main ZentroMart ki AI support assistant hoon. Aap apna order ID bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC002",
+        "turn": "2",
+        "scenario": "high_value_damage",
+        "customer_message": "Order number hai 8978 2837.",
+        "reply": "Thanks. Order details dene se pehle, aap apne registered phone ke aakhri 4 ank ya delivery pincode bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=89782837)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC002",
+        "turn": "3",
+        "scenario": "high_value_damage",
+        "customer_message": "Last four digits 4533 hain.",
+        "reply": "Thanks, verification ho gaya hai. Aapka order delivered hai, with promised delivery on 15 October 2026. Is order ke baare mein main aapki kya madad kar sakti hoon?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=89782837, verification_value=4533)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC002",
+        "turn": "4",
+        "scenario": "high_value_damage",
+        "customer_message": "Maine Zentro Vista 43-inch 4K Smart TV damage report kiya tha. Abhi replacement approve kar do na?",
+        "reply": "Main aapke liye ek ticket bana rahi hoon aur aapko ek colleague se connect kar rahi hoon. Ticket ban gaya hai, ek colleague jald hi aapse sampark karega. Ticket ID: TKTA586786D0EB2.",
+        "decision": "escalate",
+        "expected_decision": "escalate",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "ESC-1",
+          "ESC-2"
+        ],
+        "tool_calls": [
+          "create_ticket(order_id=89782837)"
+        ],
+        "must_include": "ticket / team / colleague / Priority",
+        "must_not_include": "has been approved ; I've approved ; approve kar diya"
+      },
+      {
+        "conversation_id": "PC003",
+        "turn": "1",
+        "scenario": "return_eligibility",
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "reply": "Hello, main ZentroMart ki AI support assistant hoon. Aap apna order ID bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC003",
+        "turn": "2",
+        "scenario": "return_eligibility",
+        "customer_message": "Order number hai 1859 9253.",
+        "reply": "Thanks. Order details dene se pehle, aap apne registered phone ke aakhri 4 ank ya delivery pincode bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=18599253)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC003",
+        "turn": "3",
+        "scenario": "return_eligibility",
+        "customer_message": "Last four digits 4265 hain.",
+        "reply": "Thanks, verification ho gaya hai. Aapka order delivered hai, with promised delivery on 12 October 2026. Is order ke baare mein main aapki kya madad kar sakti hoon?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=18599253, verification_value=4265)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC003",
+        "turn": "4",
+        "scenario": "return_eligibility",
+        "customer_message": "Kya main Kaafi Running Sneakers return kar sakti hoon?",
+        "reply": "Yes, you can return Kaafi Running Sneakers, White within 15 days of delivery, so by 27 October 2026. No reverse pickup fee applies for ZentroMart Plus members.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "RET-2",
+          "RET-6"
+        ],
+        "tool_calls": [],
+        "must_include": "2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC003",
+        "turn": "5",
+        "scenario": "return_eligibility",
+        "customer_message": "Aur refund kitne din mein aayega?",
+        "reply": "Refunds to ZentroMart Wallet are instant, within 2 hours of initiation.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "REF-2"
+        ],
+        "tool_calls": [],
+        "must_include": "instant / 2 hours / turant / तुरंत / 2 ghante / दो घंटे",
+        "must_not_include": "5 to 7 days"
+      },
+      {
+        "conversation_id": "PC004",
+        "turn": "1",
+        "scenario": "return_eligibility",
+        "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+        "reply": "नमस्ते, मैं ZentroMart की AI support assistant हूँ। कृपया अपना order ID बताएँ।",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC004",
+        "turn": "2",
+        "scenario": "return_eligibility",
+        "customer_message": "ऑर्डर नंबर है 7936 3550।",
+        "reply": "धन्यवाद। Order की जानकारी देने से पहले, कृपया अपने registered phone number के आख़िरी 4 अंक या delivery पिनकोड बताएँ।",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=79363550)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC004",
+        "turn": "3",
+        "scenario": "return_eligibility",
+        "customer_message": "आख़िरी चार अंक 2949 हैं।",
+        "reply": "धन्यवाद, verification हो गया है। आपका order delivered है, with promised delivery on 13 October 2026. इस order के बारे में मैं आपकी क्या मदद कर सकती हूँ?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=79363550, verification_value=2949)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC004",
+        "turn": "4",
+        "scenario": "return_eligibility",
+        "customer_message": "क्या मैं UrbanThread Slim Fit Jeans वापस कर सकती हूँ?",
+        "reply": "Yes, you can return UrbanThread Slim Fit Jeans, Blue within 30 days of delivery, so by 13 November 2026. A reverse pickup fee of ₹49 applies for a change-of-mind return of clothing, footwear and bags.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "RET-2",
+          "RET-8",
+          "RET-6"
+        ],
+        "tool_calls": [],
+        "must_include": "2026-11-13 / 13 November 2026 / 13 नवंबर 2026 ; 49",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC004",
+        "turn": "5",
+        "scenario": "return_eligibility",
+        "customer_message": "और रिफ़ंड कितने दिन में आएगा?",
+        "reply": "Refunds to UPI take 1 to 3 business days after initiation.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "REF-2"
+        ],
+        "tool_calls": [],
+        "must_include": "1 ; 3",
+        "must_not_include": "5 to 7 days"
+      },
+      {
+        "conversation_id": "PC005",
+        "turn": "1",
+        "scenario": "human_requested",
+        "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+        "reply": "नमस्ते, मैं ZentroMart की AI support assistant हूँ। कृपया अपना order ID बताएँ।",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC005",
+        "turn": "2",
+        "scenario": "human_requested",
+        "customer_message": "ऑर्डर नंबर है 3711 3676।",
+        "reply": "धन्यवाद। Order की जानकारी देने से पहले, कृपया अपने registered phone number के आख़िरी 4 अंक या delivery पिनकोड बताएँ।",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=37113676)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC005",
+        "turn": "3",
+        "scenario": "human_requested",
+        "customer_message": "आख़िरी चार अंक 1581 हैं।",
+        "reply": "धन्यवाद, verification हो गया है। आपका order delivered है, with promised delivery on 18 June 2026. इस order के बारे में मैं आपकी क्या मदद कर सकती हूँ?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=37113676, verification_value=1581)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC005",
+        "turn": "4",
+        "scenario": "human_requested",
+        "customer_message": "क्या मैं किसी इंसान से बात कर सकती हूँ?",
+        "reply": "मैं आपकी मदद के लिए एक ticket बना रही हूँ और आपको एक colleague से connect कर रही हूँ। Ticket बनाया गया है, एक colleague जल्द ही आपसे संपर्क करेगा। Ticket ID: TKT615495C109B7.",
+        "decision": "escalate",
+        "expected_decision": "escalate",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "ESC-1",
+          "ESC-2"
+        ],
+        "tool_calls": [
+          "create_ticket(order_id=37113676)"
+        ],
+        "must_include": "ticket / colleague / connect / सहयोगी / टिकट",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC006",
+        "turn": "1",
+        "scenario": "human_requested",
+        "customer_message": "Hi, I need some help with an order.",
+        "reply": "Hi, I'm ZentroMart's AI support assistant. Could you please share your order ID?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC006",
+        "turn": "2",
+        "scenario": "human_requested",
+        "customer_message": "The order number is 6649 2475.",
+        "reply": "Thanks. To share order details, could you please share the last 4 digits of your registered phone number, or your delivery pincode?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=66492475)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC006",
+        "turn": "3",
+        "scenario": "human_requested",
+        "customer_message": "The last four digits are 6073.",
+        "reply": "Thanks, verified. Your order is delivered, with promised delivery on 6 October 2026. How can I help with this order?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=66492475, verification_value=6073)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC006",
+        "turn": "4",
+        "scenario": "human_requested",
+        "customer_message": "Actually, can I just speak to a person?",
+        "reply": "I'm creating a ticket for you and connecting you to a colleague who can help. A ticket has been created and a human colleague will contact you. Ticket ID: TKTFFDAF2945C69.",
+        "decision": "escalate",
+        "expected_decision": "escalate",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "ESC-1",
+          "ESC-2"
+        ],
+        "tool_calls": [
+          "create_ticket(order_id=66492475)"
+        ],
+        "must_include": "ticket / colleague / connect / सहयोगी / टिकट",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC007",
+        "turn": "1",
+        "scenario": "repeat_contact",
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "reply": "Hello, main ZentroMart ki AI support assistant hoon. Aap apna order ID bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC007",
+        "turn": "2",
+        "scenario": "repeat_contact",
+        "customer_message": "Order number hai 4501 1817.",
+        "reply": "Thanks. Order details dene se pehle, aap apne registered phone ke aakhri 4 ank ya delivery pincode bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=45011817)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC007",
+        "turn": "3",
+        "scenario": "repeat_contact",
+        "customer_message": "Last four digits 1267 hain.",
+        "reply": "Thanks, verification ho gaya hai. Aapka order shipped hai, with promised delivery on 23 October 2026. Is order ke baare mein main aapki kya madad kar sakti hoon?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=45011817, verification_value=1267)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC007",
+        "turn": "4",
+        "scenario": "repeat_contact",
+        "customer_message": "Main is hafte teesri baar call kar rahi hoon isi baare mein.",
+        "reply": "Main aapke liye ek ticket bana rahi hoon aur aapko ek colleague se connect kar rahi hoon. Ticket ban gaya hai, ek colleague jald hi aapse sampark karega. Ticket ID: TKT354534008970.",
+        "decision": "escalate",
+        "expected_decision": "escalate",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "ESC-1",
+          "ESC-2"
+        ],
+        "tool_calls": [
+          "create_ticket(order_id=45011817)"
+        ],
+        "must_include": "ticket / colleague / team",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC008",
+        "turn": "1",
+        "scenario": "repeat_contact",
+        "customer_message": "Hi, I need some help with an order.",
+        "reply": "Hi, I'm ZentroMart's AI support assistant. Could you please share your order ID?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC008",
+        "turn": "2",
+        "scenario": "repeat_contact",
+        "customer_message": "The order number is 4819 6636.",
+        "reply": "Thanks. To share order details, could you please share the last 4 digits of your registered phone number, or your delivery pincode?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=48196636)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC008",
+        "turn": "3",
+        "scenario": "repeat_contact",
+        "customer_message": "The last four digits are 7725.",
+        "reply": "Thanks, verified. Your order is delivered, with promised delivery on 3 October 2026. How can I help with this order?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=48196636, verification_value=7725)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC008",
+        "turn": "4",
+        "scenario": "repeat_contact",
+        "customer_message": "This is the third time I'm calling about this in a week.",
+        "reply": "I'm creating a ticket for you and connecting you to a colleague who can help. A ticket has been created and a human colleague will contact you. Ticket ID: TKTDF2ADB2A17B8.",
+        "decision": "escalate",
+        "expected_decision": "escalate",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "ESC-1",
+          "ESC-2"
+        ],
+        "tool_calls": [
+          "create_ticket(order_id=48196636)"
+        ],
+        "must_include": "ticket / colleague / team",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC009",
+        "turn": "1",
+        "scenario": "refund_status",
+        "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+        "reply": "नमस्ते, मैं ZentroMart की AI support assistant हूँ। कृपया अपना order ID बताएँ।",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC009",
+        "turn": "2",
+        "scenario": "refund_status",
+        "customer_message": "ऑर्डर नंबर है 6783 0826।",
+        "reply": "धन्यवाद। Order की जानकारी देने से पहले, कृपया अपने registered phone number के आख़िरी 4 अंक या delivery पिनकोड बताएँ।",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=67830826)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC009",
+        "turn": "3",
+        "scenario": "refund_status",
+        "customer_message": "आख़िरी चार अंक 0783 हैं।",
+        "reply": "धन्यवाद, verification हो गया है। आपका order return_picked_up है, with promised delivery on 15 October 2026. इस order के बारे में मैं आपकी क्या मदद कर सकती हूँ?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=67830826, verification_value=0783)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC009",
+        "turn": "4",
+        "scenario": "refund_status",
+        "customer_message": "मेरा रिफ़ंड कहाँ है?",
+        "reply": "Your return has been picked up and is waiting for quality check (QC). Once it passes QC, the refund is initiated within 2 business days of pickup. For ZentroMart Plus members, the refund is initiated at pickup.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "RET-7",
+          "REF-1",
+          "PLS-2"
+        ],
+        "tool_calls": [],
+        "must_include": "quality check / QC / गुणवत्ता जाँच / गुणवत्ता जांच",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC010",
+        "turn": "1",
+        "scenario": "refund_status",
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "reply": "Hello, main ZentroMart ki AI support assistant hoon. Aap apna order ID bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC010",
+        "turn": "2",
+        "scenario": "refund_status",
+        "customer_message": "Order number hai 1664 0894.",
+        "reply": "Thanks. Order details dene se pehle, aap apne registered phone ke aakhri 4 ank ya delivery pincode bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=16640894)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC010",
+        "turn": "3",
+        "scenario": "refund_status",
+        "customer_message": "Last four digits 2108 hain.",
+        "reply": "Thanks, verification ho gaya hai. Aapka order return_refund_initiated hai, with promised delivery on 14 July 2026. Is order ke baare mein main aapki kya madad kar sakti hoon?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=16640894, verification_value=2108)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC010",
+        "turn": "4",
+        "scenario": "refund_status",
+        "customer_message": "Mera refund kahan hai?",
+        "reply": "Your refund was initiated on 20 July 2026 and should have arrived by 23 July 2026. I'm creating a ticket and connecting you to a colleague to trace it. Your refund reference number (RRN) is 315633825001, which your bank can trace. Ticket ID: TKT8CD773EA12A6.",
+        "decision": "escalate",
+        "expected_decision": "escalate",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "ESC-1",
+          "REF-2",
+          "REF-6"
+        ],
+        "tool_calls": [
+          "create_ticket()"
+        ],
+        "must_include": "ticket / colleague / team ; reference number / RRN / 315633825001",
+        "must_not_include": "it will arrive tomorrow"
+      },
+      {
+        "conversation_id": "PC011",
+        "turn": "1",
+        "scenario": "where_is_my_order",
+        "customer_message": "Hi, my order hasn't arrived yet. Where is it?",
+        "reply": "Hi, I'm ZentroMart's AI support assistant. Could you please share your order ID?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC011",
+        "turn": "2",
+        "scenario": "where_is_my_order",
+        "customer_message": "The order number is 2629 5015.",
+        "reply": "Thanks. To share order details, could you please share the last 4 digits of your registered phone number, or your delivery pincode?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=26295015)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC011",
+        "turn": "3",
+        "scenario": "where_is_my_order",
+        "customer_message": "The last four digits are 8752.",
+        "reply": "Thanks, verified. Your order is shipped, with promised delivery on 22 October 2026. How can I help with this order?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=26295015, verification_value=8752)"
+        ],
+        "must_include": "2026-10-22 / 22 October 2026 / 22 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC011",
+        "turn": "4",
+        "scenario": "where_is_my_order",
+        "customer_message": "And what if I'm not at home?",
+        "reply": "The courier makes up to 3 delivery attempts. After a failed attempt you get an SMS to reschedule. If the third attempt fails, the parcel is returned to the warehouse (RTO) and the refund follows REF-1.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "DEL-3"
+        ],
+        "tool_calls": [],
+        "must_include": "3",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC012",
+        "turn": "1",
+        "scenario": "where_is_my_order",
+        "customer_message": "Hi, my order hasn't arrived yet. Where is it?",
+        "reply": "Hi, I'm ZentroMart's AI support assistant. Could you please share your order ID?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC012",
+        "turn": "2",
+        "scenario": "where_is_my_order",
+        "customer_message": "The order number is 7544 7568.",
+        "reply": "Thanks. To share order details, could you please share the last 4 digits of your registered phone number, or your delivery pincode?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=75447568)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC012",
+        "turn": "3",
+        "scenario": "where_is_my_order",
+        "customer_message": "The last four digits are 0654.",
+        "reply": "Thanks, verified. Your order is shipped, with promised delivery on 24 October 2026. How can I help with this order?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=75447568, verification_value=0654)"
+        ],
+        "must_include": "2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC012",
+        "turn": "4",
+        "scenario": "where_is_my_order",
+        "customer_message": "And what if I'm not at home?",
+        "reply": "The courier makes up to 3 delivery attempts. After a failed attempt you get an SMS to reschedule. If the third attempt fails, the parcel is returned to the warehouse (RTO) and the refund follows REF-1.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "DEL-3"
+        ],
+        "tool_calls": [],
+        "must_include": "3",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC013",
+        "turn": "1",
+        "scenario": "topic_switch",
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "reply": "Hello, main ZentroMart ki AI support assistant hoon. Aap apna order ID bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC013",
+        "turn": "2",
+        "scenario": "topic_switch",
+        "customer_message": "Order number hai 8615 2121.",
+        "reply": "Thanks. Order details dene se pehle, aap apne registered phone ke aakhri 4 ank ya delivery pincode bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=86152121)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC013",
+        "turn": "3",
+        "scenario": "topic_switch",
+        "customer_message": "Last four digits 5568 hain.",
+        "reply": "Thanks, verification ho gaya hai. Aapka order delivered hai, with promised delivery on 15 October 2026. Is order ke baare mein main aapki kya madad kar sakti hoon?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=86152121, verification_value=5568)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC013",
+        "turn": "4",
+        "scenario": "topic_switch",
+        "customer_message": "Theek hai. Ek aur sawaal: agle order pe do coupon laga sakta hoon?",
+        "reply": "Only 1 coupon can be applied per order. Coupons cannot be combined, added after the order is placed, or exchanged for cash.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "CPN-1"
+        ],
+        "tool_calls": [],
+        "must_include": "one / only one / ek / 1",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC013",
+        "turn": "5",
+        "scenario": "topic_switch",
+        "customer_message": "Achha. Aur mera order kab ship hua tha?",
+        "reply": "Your order was shipped on 9 October 2026.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "TRK-1"
+        ],
+        "tool_calls": [],
+        "must_include": "2026-10-09 / 9 October 2026 / 9 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC014",
+        "turn": "1",
+        "scenario": "topic_switch",
+        "customer_message": "Hi, I need some help with an order.",
+        "reply": "Hi, I'm ZentroMart's AI support assistant. Could you please share your order ID?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC014",
+        "turn": "2",
+        "scenario": "topic_switch",
+        "customer_message": "The order number is 1004 8947.",
+        "reply": "Thanks. To share order details, could you please share the last 4 digits of your registered phone number, or your delivery pincode?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=10048947)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC014",
+        "turn": "3",
+        "scenario": "topic_switch",
+        "customer_message": "The last four digits are 9260.",
+        "reply": "Thanks, verified. Your order is delivered, with promised delivery on 14 October 2026. How can I help with this order?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=10048947, verification_value=9260)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC014",
+        "turn": "4",
+        "scenario": "topic_switch",
+        "customer_message": "Okay. Different question: can I use two coupons on my next order?",
+        "reply": "Only 1 coupon can be applied per order. Coupons cannot be combined, added after the order is placed, or exchanged for cash.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "CPN-1"
+        ],
+        "tool_calls": [],
+        "must_include": "one / only one / ek / 1",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC014",
+        "turn": "5",
+        "scenario": "topic_switch",
+        "customer_message": "Got it. And going back to my order, when was it shipped?",
+        "reply": "Your order was shipped on 8 October 2026.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "TRK-1"
+        ],
+        "tool_calls": [],
+        "must_include": "2026-10-08 / 8 October 2026 / 8 अक्टूबर 2026",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC015",
+        "turn": "1",
+        "scenario": "compensation_demand",
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "reply": "Hello, main ZentroMart ki AI support assistant hoon. Aap apna order ID bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC015",
+        "turn": "2",
+        "scenario": "compensation_demand",
+        "customer_message": "Order number hai 8488 9113.",
+        "reply": "Thanks. Order details dene se pehle, aap apne registered phone ke aakhri 4 ank ya delivery pincode bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=84889113)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC015",
+        "turn": "3",
+        "scenario": "compensation_demand",
+        "customer_message": "Last four digits 6543 hain.",
+        "reply": "Thanks, verification ho gaya hai. Aapka order returned_refunded hai, with promised delivery on 26 June 2026. Is order ke baare mein main aapki kya madad kar sakti hoon?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=84889113, verification_value=6543)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC015",
+        "turn": "4",
+        "scenario": "compensation_demand",
+        "customer_message": "Order late aaya, mujhe 300 rupaye ka voucher chahiye.",
+        "reply": "Maaf kijiye, there is no compensation for a late Standard delivery, and I can't add a voucher for it. The promised delivery date at checkout is the commitment, and no other compensation is offered for Standard delays.",
+        "decision": "refuse",
+        "expected_decision": "refuse",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "DEL-4",
+          "ESC-4"
+        ],
+        "tool_calls": [],
+        "must_include": "sorry / apolog / maaf",
+        "must_not_include": "₹300 has been ; voucher added ; has been credited"
+      },
+      {
+        "conversation_id": "PC016",
+        "turn": "1",
+        "scenario": "compensation_demand",
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "reply": "Hello, main ZentroMart ki AI support assistant hoon. Aap apna order ID bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC016",
+        "turn": "2",
+        "scenario": "compensation_demand",
+        "customer_message": "Order number hai 3117 1629.",
+        "reply": "Thanks. Order details dene se pehle, aap apne registered phone ke aakhri 4 ank ya delivery pincode bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=31171629)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC016",
+        "turn": "3",
+        "scenario": "compensation_demand",
+        "customer_message": "Last four digits 2987 hain.",
+        "reply": "Thanks, verification ho gaya hai. Aapka order delivered hai, with promised delivery on 28 September 2026. Is order ke baare mein main aapki kya madad kar sakti hoon?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=31171629, verification_value=2987)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC016",
+        "turn": "4",
+        "scenario": "compensation_demand",
+        "customer_message": "Order late aaya, mujhe 300 rupaye ka voucher chahiye.",
+        "reply": "Maaf kijiye, there is no compensation for a late Standard delivery, and I can't add a voucher for it. The promised delivery date at checkout is the commitment, and no other compensation is offered for Standard delays.",
+        "decision": "refuse",
+        "expected_decision": "refuse",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "DEL-4",
+          "ESC-4"
+        ],
+        "tool_calls": [],
+        "must_include": "sorry / apolog / maaf",
+        "must_not_include": "₹300 has been ; voucher added ; has been credited"
+      },
+      {
+        "conversation_id": "PC017",
+        "turn": "1",
+        "scenario": "cancel_unshipped_order",
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "reply": "Hello, main ZentroMart ki AI support assistant hoon. Aap apna order ID bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC017",
+        "turn": "2",
+        "scenario": "cancel_unshipped_order",
+        "customer_message": "Order number hai 3506 1733.",
+        "reply": "Thanks. Order details dene se pehle, aap apne registered phone ke aakhri 4 ank ya delivery pincode bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=35061733)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC017",
+        "turn": "3",
+        "scenario": "cancel_unshipped_order",
+        "customer_message": "Last four digits 2743 hain.",
+        "reply": "Thanks, verification ho gaya hai. Aapka order placed hai, with promised delivery on 27 October 2026. Is order ke baare mein main aapki kya madad kar sakti hoon?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=35061733, verification_value=2743)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC017",
+        "turn": "4",
+        "scenario": "cancel_unshipped_order",
+        "customer_message": "Please ise cancel kar do.",
+        "reply": "You can cancel it free of charge in My Orders in the app before it ships. I can't cancel orders from here, but the refund is initiated immediately when you cancel it there.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "CAN-1"
+        ],
+        "tool_calls": [],
+        "must_include": "My Orders / app / free",
+        "must_not_include": "I have cancelled ; cancelled it for you ; cancel kar diya"
+      },
+      {
+        "conversation_id": "PC018",
+        "turn": "1",
+        "scenario": "cancel_unshipped_order",
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "reply": "Hello, main ZentroMart ki AI support assistant hoon. Aap apna order ID bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC018",
+        "turn": "2",
+        "scenario": "cancel_unshipped_order",
+        "customer_message": "Order number hai 2640 3404.",
+        "reply": "Thanks. Order details dene se pehle, aap apne registered phone ke aakhri 4 ank ya delivery pincode bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=26403404)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC018",
+        "turn": "3",
+        "scenario": "cancel_unshipped_order",
+        "customer_message": "Last four digits 4255 hain.",
+        "reply": "Thanks, verification ho gaya hai. Aapka order packed hai, with promised delivery on 27 October 2026. Is order ke baare mein main aapki kya madad kar sakti hoon?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=26403404, verification_value=4255)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC018",
+        "turn": "4",
+        "scenario": "cancel_unshipped_order",
+        "customer_message": "Please ise cancel kar do.",
+        "reply": "You can cancel it free of charge in My Orders in the app before it ships. I can't cancel orders from here, but the refund is initiated immediately when you cancel it there.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "CAN-1"
+        ],
+        "tool_calls": [],
+        "must_include": "My Orders / app / free",
+        "must_not_include": "I have cancelled ; cancelled it for you ; cancel kar diya"
+      },
+      {
+        "conversation_id": "PC019",
+        "turn": "1",
+        "scenario": "cancel_shipped_order",
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "reply": "Hello, main ZentroMart ki AI support assistant hoon. Aap apna order ID bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC019",
+        "turn": "2",
+        "scenario": "cancel_shipped_order",
+        "customer_message": "Order number hai 1591 1102.",
+        "reply": "Thanks. Order details dene se pehle, aap apne registered phone ke aakhri 4 ank ya delivery pincode bata sakte hain?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=15911102)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC019",
+        "turn": "3",
+        "scenario": "cancel_shipped_order",
+        "customer_message": "Pincode 440010 hai.",
+        "reply": "Thanks, verification ho gaya hai. Aapka order shipped hai, with promised delivery on 29 October 2026. Is order ke baare mein main aapki kya madad kar sakti hoon?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=15911102, verification_value=440010)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC019",
+        "turn": "4",
+        "scenario": "cancel_shipped_order",
+        "customer_message": "Mujhe ise cancel karna hai.",
+        "reply": "A shipped order cannot be cancelled. You can refuse the parcel at the door: for cash-on-delivery orders nothing is charged, and for prepaid orders the refund follows once the parcel returns to the warehouse, usually 7 to 10 calendar days after the last delivery attempt. Or accept the delivery and return the item within its return window, if it is returnable.",
+        "decision": "refuse",
+        "expected_decision": "refuse",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "CAN-2",
+          "REF-1"
+        ],
+        "tool_calls": [],
+        "must_include": "refuse / decline / मना / mana / lene se ; 7",
+        "must_not_include": "cancelled your order ; I have cancelled ; कैंसिल कर दिया"
+      },
+      {
+        "conversation_id": "PC020",
+        "turn": "1",
+        "scenario": "cancel_shipped_order",
+        "customer_message": "Hi, I need some help with an order.",
+        "reply": "Hi, I'm ZentroMart's AI support assistant. Could you please share your order ID?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC020",
+        "turn": "2",
+        "scenario": "cancel_shipped_order",
+        "customer_message": "The order number is 4316 5903.",
+        "reply": "Thanks. To share order details, could you please share the last 4 digits of your registered phone number, or your delivery pincode?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=43165903)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC020",
+        "turn": "3",
+        "scenario": "cancel_shipped_order",
+        "customer_message": "My pincode is 700091.",
+        "reply": "Thanks, verified. Your order is shipped, with promised delivery on 21 October 2026. How can I help with this order?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=43165903, verification_value=700091)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC020",
+        "turn": "4",
+        "scenario": "cancel_shipped_order",
+        "customer_message": "I want to cancel it.",
+        "reply": "A shipped order cannot be cancelled. You can refuse the parcel at the door: for cash-on-delivery orders nothing is charged, and for prepaid orders the refund follows once the parcel returns to the warehouse, usually 7 to 10 calendar days after the last delivery attempt. Or accept the delivery and return the item within its return window, if it is returnable.",
+        "decision": "refuse",
+        "expected_decision": "refuse",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "CAN-2",
+          "REF-1"
+        ],
+        "tool_calls": [],
+        "must_include": "refuse / decline / मना / mana / lene se ; 7",
+        "must_not_include": "cancelled your order ; I have cancelled ; कैंसिल कर दिया"
+      },
+      {
+        "conversation_id": "PC021",
+        "turn": "1",
+        "scenario": "failed_verification",
+        "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+        "reply": "नमस्ते, मैं ZentroMart की AI support assistant हूँ। कृपया अपना order ID बताएँ।",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC021",
+        "turn": "2",
+        "scenario": "failed_verification",
+        "customer_message": "ऑर्डर नंबर है 7746 1439।",
+        "reply": "धन्यवाद। Order की जानकारी देने से पहले, कृपया अपने registered phone number के आख़िरी 4 अंक या delivery पिनकोड बताएँ।",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=77461439)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC021",
+        "turn": "3",
+        "scenario": "failed_verification",
+        "customer_message": "आख़िरी चार अंक 1266 हैं।",
+        "reply": "यह हमारे records से match नहीं हुआ। कृपया registered phone के आख़िरी 4 अंक या delivery पिनकोड दोबारा बताएँ।",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-3"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=77461439, verification_value=1266)"
+        ],
+        "must_include": "again / match / दोबारा / मेल",
+        "must_not_include": "600042"
+      },
+      {
+        "conversation_id": "PC021",
+        "turn": "4",
+        "scenario": "failed_verification",
+        "customer_message": "आख़िरी चार अंक 1266 हैं।",
+        "reply": "माफ़ कीजिए, verification के बिना मैं order की जानकारी साझा नहीं कर सकती। कृपया अपने registered phone number से support से संपर्क करें।",
+        "decision": "refuse",
+        "expected_decision": "refuse",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-3"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=77461439, verification_value=1266)"
+        ],
+        "must_include": "registered / can't share / cannot share / नहीं बता / पंजीकृत / रजिस्टर्ड / साझा नहीं",
+        "must_not_include": "2026-10-09 ; 9 October 2026 ; 600042"
+      },
+      {
+        "conversation_id": "PC022",
+        "turn": "1",
+        "scenario": "failed_verification",
+        "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+        "reply": "नमस्ते, मैं ZentroMart की AI support assistant हूँ। कृपया अपना order ID बताएँ।",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC022",
+        "turn": "2",
+        "scenario": "failed_verification",
+        "customer_message": "ऑर्डर नंबर है 5664 6891।",
+        "reply": "धन्यवाद। Order की जानकारी देने से पहले, कृपया अपने registered phone number के आख़िरी 4 अंक या delivery पिनकोड बताएँ।",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=56646891)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC022",
+        "turn": "3",
+        "scenario": "failed_verification",
+        "customer_message": "आख़िरी चार अंक 3357 हैं।",
+        "reply": "यह हमारे records से match नहीं हुआ। कृपया registered phone के आख़िरी 4 अंक या delivery पिनकोड दोबारा बताएँ।",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-3"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=56646891, verification_value=3357)"
+        ],
+        "must_include": "again / match / दोबारा / मेल",
+        "must_not_include": "641004"
+      },
+      {
+        "conversation_id": "PC022",
+        "turn": "4",
+        "scenario": "failed_verification",
+        "customer_message": "आख़िरी चार अंक 3357 हैं।",
+        "reply": "माफ़ कीजिए, verification के बिना मैं order की जानकारी साझा नहीं कर सकती। कृपया अपने registered phone number से support से संपर्क करें।",
+        "decision": "refuse",
+        "expected_decision": "refuse",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-3"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=56646891, verification_value=3357)"
+        ],
+        "must_include": "registered / can't share / cannot share / नहीं बता / पंजीकृत / रजिस्टर्ड / साझा नहीं",
+        "must_not_include": "2026-10-08 ; 8 October 2026 ; 641004"
+      },
+      {
+        "conversation_id": "PC023",
+        "turn": "1",
+        "scenario": "express_late_credit",
+        "customer_message": "Hi, I need some help with an order.",
+        "reply": "Hi, I'm ZentroMart's AI support assistant. Could you please share your order ID?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC023",
+        "turn": "2",
+        "scenario": "express_late_credit",
+        "customer_message": "The order number is 2235 4022.",
+        "reply": "Thanks. To share order details, could you please share the last 4 digits of your registered phone number, or your delivery pincode?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=22354022)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC023",
+        "turn": "3",
+        "scenario": "express_late_credit",
+        "customer_message": "The last four digits are 9967.",
+        "reply": "Thanks, verified. Your order is delivered, with promised delivery on 15 September 2026. How can I help with this order?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=22354022, verification_value=9967)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC023",
+        "turn": "4",
+        "scenario": "express_late_credit",
+        "customer_message": "My express delivery was late. Do I get the fee back?",
+        "reply": "The ₹79 express fee was credited to ZentroMart Wallet on 18 September 2026.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "DEL-4"
+        ],
+        "tool_calls": [],
+        "must_include": "79",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC024",
+        "turn": "1",
+        "scenario": "express_late_credit",
+        "customer_message": "Hi, I need some help with an order.",
+        "reply": "Hi, I'm ZentroMart's AI support assistant. Could you please share your order ID?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "STY-1"
+        ],
+        "tool_calls": [],
+        "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC024",
+        "turn": "2",
+        "scenario": "express_late_credit",
+        "customer_message": "The order number is 5863 4590.",
+        "reply": "Thanks. To share order details, could you please share the last 4 digits of your registered phone number, or your delivery pincode?",
+        "decision": "clarify",
+        "expected_decision": "clarify",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=58634590)"
+        ],
+        "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC024",
+        "turn": "3",
+        "scenario": "express_late_credit",
+        "customer_message": "The last four digits are 8781.",
+        "reply": "Thanks, verified. Your order is delivered, with promised delivery on 26 September 2026. How can I help with this order?",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "IDV-2"
+        ],
+        "tool_calls": [
+          "lookup_order(order_id=58634590, verification_value=8781)"
+        ],
+        "must_include": "",
+        "must_not_include": ""
+      },
+      {
+        "conversation_id": "PC024",
+        "turn": "4",
+        "scenario": "express_late_credit",
+        "customer_message": "My express delivery was late. Do I get the fee back?",
+        "reply": "The ₹79 express fee was credited to ZentroMart Wallet on 29 September 2026.",
+        "decision": "answer",
+        "expected_decision": "answer",
+        "decision_ok": true,
+        "passed": true,
+        "sources": [
+          "DEL-4"
+        ],
+        "tool_calls": [],
+        "must_include": "79",
+        "must_not_include": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "file": "q3.txt",
+  "transcript": "Can I schedule a delivery at midnight?",
+  "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+  "decision": "answer",
+  "sources": [],
+  "tool_calls": [],
+  "ticket_id": null
+}

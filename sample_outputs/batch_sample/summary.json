@@ -1,0 +1,35 @@
+[
+  {
+    "file": "q1.txt",
+    "transcript": "My refund to credit card was started on 17 October 2026. By which date should I have it?",
+    "reply": "Refunds to card take 5 to 7 business days. A refund initiated on 17 October 2026 should therefore arrive between 24 October 2026 and 27 October 2026, counting business days (Monday to Saturday, skipping warehouse holidays).",
+    "decision": "answer",
+    "sources": [
+      "REF-2",
+      "KB-00.3"
+    ],
+    "tool_calls": [],
+    "ticket_id": null
+  },
+  {
+    "file": "q2.txt",
+    "transcript": "SKU ELE-0012 pe ZentroMart Assured hai kya? Claim kaise karein?",
+    "reply": "Yes, it carries a 12-month ZentroMart Assured warranty from the delivery date, in addition to the brand warranty of 12 months. Raise an Assured claim in the app under My Orders.",
+    "decision": "answer",
+    "sources": [
+      "WAR-2",
+      "WAR-1"
+    ],
+    "tool_calls": [],
+    "ticket_id": null
+  },
+  {
+    "file": "q3.txt",
+    "transcript": "Can I schedule a delivery at midnight?",
+    "reply": "Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+    "decision": "answer",
+    "sources": [],
+    "tool_calls": [],
+    "ticket_id": null
+  }
+]
