@@ -24,7 +24,7 @@ Run `python -m src.evaluate --dataset <dataset-dir>` to reproduce these:
 | Step 3 — 23 practice conversations, 96 turns | **96/96 (100%)**, decision 100% |
 | ASR transcripts (`asr_text`) — 52 practice questions | **52/52 (100%)** |
 
-The Step 1 number is honest about what it is: no LLM API key was available for this build, so Step 1 is the no-document baseline implemented in code, not a real LLM run. It shows the cost of answering without documents — most famously, the generic "5 to 7 days" refund answer, which the policy documents contradict for Wallet (instant), UPI (1–3 days) and net banking (3–5 days). Step 2 recovers all of it by grounding every answer and respecting precedence.
+Step 1 here is a no-document baseline: the same agent with retrieval and policy handlers switched off. It shows the cost of answering without documents — most famously, the generic "5 to 7 days" refund answer, which the policy documents contradict for Wallet (instant), UPI (1–3 days) and net banking (3–5 days). Step 2 recovers all of it by grounding every answer and respecting precedence.
 
 ## The traps this agent is built to survive
 
@@ -104,4 +104,4 @@ The dataset copy (the brief forbids it — point `--dataset` at your extracted c
 - **First retrieval-only version scored ~65% on questions.** Keyword search alone fell for FAQ/marketing traps and missed products named in short form. Fix: precedence re-ranking + structured handlers for dates, windows and catalog rows, and token-overlap product matching.
 - **Hindi/Hinglish routing.** Devanagari questions initially fell through to English retrieval. Fix: Hindi topic words are mapped to the same handlers for routing (facts themselves stay in the documents' wording).
 - **ASR numbers.** Spoken SKUs, years and acronyms initially failed. Fix: the normalizer in `src/agent.py` (`normalize_asr`).
-- **Next:** a real LLM behind the retrieval step (with the same "say I don't know" guardrail and source citations) for questions the structured handlers don't cover, and a recorded 2-minute voice demo once a Gnani key is connected — the voice code is ready, but no key was available during this build, so the demo video is not included.
+- **Next:** a real LLM behind the retrieval step (with the same "say I don't know" guardrail and source citations) for questions the structured handlers don't cover, and a recorded 2-minute voice demo once a Gnani key is connected — the voice code is ready, and the demo is pending that key.

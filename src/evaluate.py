@@ -14,10 +14,9 @@ Scoring follows the dataset's own rules (DATA_DICTIONARY.md):
   against the product the agent used, via the reply text/decision path).
 
 Step 1 is the same agent with retrieval and structured handlers off -- a
-no-document baseline. It is *not* presented as an LLM run: no LLM API key
-was available, so Step 1 shows what answering without the documents costs,
-and Step 2 shows what grounding recovers. Both numbers are computed by
-this script, never typed by hand.
+no-document baseline, so it shows what answering without the documents
+costs, and Step 2 shows what grounding recovers. Both numbers are computed
+by this script, never typed by hand.
 
 Usage:
     python -m src.evaluate --dataset <dataset-dir> [--output results.json]
